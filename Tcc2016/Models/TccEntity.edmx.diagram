@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4bd86e188b2d411d9f4463fe14e36133" Name="Diagram1">
+        <EntityTypeShape EntityType="tcc_newModel.categories" Width="1.5" PointX="8.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tcc_newModel.interests" Width="1.5" PointX="1.625" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tcc_newModel.posts" Width="1.5" PointX="6.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tcc_newModel.users" Width="1.5" PointX="4" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="tcc_newModel.FK_posts_categories" ManuallyRouted="false" />
+        <AssociationConnector Association="tcc_newModel.FK_interests_users" ManuallyRouted="false" />
+        <AssociationConnector Association="tcc_newModel.FK_posts_users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
